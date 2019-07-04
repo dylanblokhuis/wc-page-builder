@@ -12,30 +12,15 @@ import {
  */
 @customElement('wc-container')
 export class Container extends LitElement {
-
-  /**
-   * Create an observed property. Triggers update on change.
-   */
-  @property()
-  foo = 'foowoo';
-
   static get styles() {
     return css`
-      :host {
-        max-width: 1280px;
-        margin: auto;
-      }
+      
     `;
-  } 
-
+  }
   /**
    * Implement `render` to define a template for your element.
    */
   render() {
-    /**
-     * Use JavaScript expressions to include property values in
-     * the element template.
-     */
     return html`
       <slot></slot>
     `;

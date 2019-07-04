@@ -10,26 +10,13 @@ import {
  * Use the customElement decorator to define your class as
  * a custom element. Registers <my-element> as an HTML tag.
  */
-@customElement('wc-row')
-export class Row extends LitElement {
-
-  /**
-   * Create an observed property. Triggers update on change.
-   */
-  @property()
-  foo = 'foowoo';
+@customElement('wc-col')
+export class Col extends LitElement {
 
   static get styles() {
     return css`
-      :host { 
-        display: flex;
-        margin-right: -15px;
-        margin-left: -15px;
-      }
       
-      :host(.wrap) {
-        flex-wrap: wrap;
-      }`;
+    `;
   } 
 
   /**

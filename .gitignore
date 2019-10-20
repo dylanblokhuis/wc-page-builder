@@ -4,3 +4,4 @@ yarn.lock
 .rpt2_cache
 backend/build
 frontend/build
+vendor

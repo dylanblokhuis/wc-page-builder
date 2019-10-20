@@ -13,6 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'Access denied.' );
 }
 
+require_once( __DIR__ . '/vendor/autoload.php' );
 require_once( __DIR__ . '/includes/WCPageBuilder.php' );
 
 if ( class_exists( 'WCPageBuilder' ) ) {

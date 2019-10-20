@@ -1,21 +1,7 @@
-import App from './components/App.svelte';
-import { DOM } from './stores';
+import Editor from './Editor.svelte';
 
-const app = new App({
-    target: document.querySelector("#post-body-content")
+const editor = new Editor({
+	target: document.querySelector('.wcpb-editor')
 });
 
-DOM.subscribe(elements => {
-    let root = document.createElement("div")
-    elements.forEach(element => {
-        let domElement = document.createElement(element)
-        root.appendChild(domElement)
-    })
-    console.log(root)
-})
-
-function writeToEditor(editorValue) {
-
-}
-
-export default app;
+export default editor;

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Container",
+    "tag": "wc-container",
+    "path": "not set yet"
+  },
+  {
+    "name": "Row",
+    "tag": "wc-row",
+    "path": "not set yet"
+  },
+  {
+    "name": "Column",
+    "tag": "wc-col",
+    "path": "not set yet"
+  }
+]
